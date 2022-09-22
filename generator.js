@@ -20,12 +20,14 @@ function generate() {
     const maxNumber = Math.max.apply(null, numbers);
     const meanNumber = sum / 10;
 
+
+    //тоже работает:
     // let sum = 0;
     // let product = 1;
 
-    // for (let i = 0; i < 10; i++) {
-    //     sum += numbers[i];
-    //     product *= numbers[i];
+    // for (num of numbers) {
+    //     sum += num;
+    //     product *= num;
     // }
     // const meanNumber = sum / 10;
 
