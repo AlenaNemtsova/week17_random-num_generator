@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 50%;
+        margin: 50px auto;
+      }
+      .btn {
+        display: block;
+        margin: 0 auto 30px auto;
+        width: 50%;
+        height: 50px;
+        background-color: rgb(73, 83, 115);
+        color: white;
+        font-size: 16px;
+      }
+      ul {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn">Сгенерировать числа</button>
+      <div class="result">
+        <ul>
+          <li>Числа: <span class="all-numbers"></span></li>
+          <li>Минимальное: <span class="min-number"></span></li>
+          <li>Максимальное: <span class="max-number"></span></li>
+          <li>Среднее арифметическое: <span class="mean-number"></span></li>
+          <li>Сумма чисел: <span class="sum"></span></li>
+          <li>Произведение чисел: <span class="product"></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="generator.js"></script>
+  </body>
+</html>
